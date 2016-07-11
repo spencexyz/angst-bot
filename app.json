@@ -1,0 +1,6 @@
+{
+  "name": "Slackbox",
+  "description": "Play a random angsty song in your Slack channel.",
+  "repository": "https://github.com/benchmarkstudios/slackbox",
+  "keywords": ["slack", "spotify"]
+}
