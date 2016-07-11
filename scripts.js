@@ -22,3 +22,8 @@ var interval = setInterval(function(){
     clearInterval(interval);
   }
 }, 1000);
+
+var playButton = document.getElementById('playButton');
+playButton.addEventListener("click", function() {
+  document.getElementById("bgvid").play();
+});
