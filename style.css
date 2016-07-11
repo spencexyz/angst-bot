@@ -1,0 +1,97 @@
+body {
+  background-color: #222;
+
+}
+
+video#bgvid { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; 
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
+}
+
+#message {
+  text-align: center;
+  margin-top: 200px;
+  color: #fff;
+}
+
+#message h1, #message p {
+  margin: 0 auto;
+}
+
+#message h1 {
+  background-color: #FF9800;
+  display: inline-block;
+  padding: 10 50px;
+  font-size: 3em;
+}
+
+#message p {
+  background-color: #8E24AA;
+  display: inline-block;
+  padding: 10 50px;
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+#twitter {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #81C784;
+  padding: 5 10px;
+}
+
+#twitter p {
+  margin: 0;
+  color: #fff;
+}
+
+#twitter a {
+  padding: 0;
+  text-decoration: none;
+}
+
+#countdown-container {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #40C4FF;
+  width: 150px;
+  padding: 5 10px;
+  border: solid #fff;
+}
+
+#countdown {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#countdown a {
+  color: #000;
+}
